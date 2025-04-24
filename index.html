@@ -29,6 +29,17 @@
       margin: 0 auto;
     }
 
+    .card_icon {
+        width: 64px;
+        height: 64px;
+        margin: 0 auto;
+    }
+
+    .card_icon img {
+        width: 64px;
+        height: 64px;
+    }
+
     .hero {
       display: flex;
       justify-content: space-between;
@@ -74,9 +85,12 @@
       margin-bottom: 40px;
     }
     .problem-cards {
+      width: 920px;
+      margin:0 auto;
       display: flex;
       justify-content: center;
       gap: 20px;
+      margin-bottom: 32px;
     }
     .card {
       background: white;
@@ -143,16 +157,27 @@
     <h2>Kennen Sie diese Probleme in Ihrem Architekturbüro?</h2>
     <div class="problem-cards">
       <div class="card">
+        <div class="card_icon"><img src="images/angle-tool.png"></div>
         <h3>Überlastung der Mitarbeiter</h3>
         <p>Durch zu geringe Kapazität im Team werden die Aufgaben oft an wenige Schultern verteilt, was zu Fehlern und schlechterer Qualität führt.</p>
       </div>
       <div class="card">
+        <div class="card_icon"><img src="images/revolve-tool.png"></div>
         <h3>Bremse im Wachstum</h3>
         <p>Die Nachfrage ist da, aber Sie können keine neuen Projekte annehmen, weil Architekten fehlen. Wachstum bleibt aus.</p>
       </div>
       <div class="card">
+        <div class="card_icon"><img src="images/fast-loft-tool.png"></div>
         <h3>Hoher Konkurrenzdruck</h3>
         <p>Mitbewerber sind schneller, besser aufgestellt und gewinnen die lukrativeren Projekte. Sie geraten ins Hintertreffen.</p>
+      </div>
+    </div>
+
+    <div class="problem-cards">
+      <div class="card">
+        <div class="card_icon"><img src="images/shell-tool.png"></div>
+        <h3>Überlastung der Mitarbeiter</h3>
+        <p>Durch zu geringe Kapazität im Team werden die Aufgaben oft an wenige Schultern verteilt, was zu Fehlern und schlechterer Qualität führt.</p>
       </div>
     </div>
   </section>
