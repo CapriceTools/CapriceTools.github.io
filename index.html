@@ -1,14 +1,157 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Caprice Tools for Skethcup</title>
-        <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="fonts/fonts.css">
-        <meta name="description" content="Caprice Tools for Sketchup - Make Sketchup model easy">
-        <meta name="keywords" content="Sketchup extenstion, Caprice Tools, Sketchup, extension, Sketchup modeling">
-    </head>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Caprice Tools for Skethcup</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="fonts/fonts.css">
+  <meta name="description" content="Caprice Tools for Sketchup - Make Sketchup model easy">
+  <meta name="keywords" content="Sketchup extenstion, Caprice Tools, Sketchup, extension, Sketchup modeling">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+    }
+	
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 40px;
+      background: white;
+    }
 
-    <body>
-        Caprice Tools for Sketchup
-    </body>
+    #header-wrapper {
+      width: 920px;
+      margin: 0 auto;
+    }
+
+    .hero {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 60px 40px;
+      background: white;
+    }
+
+    #hero-wrapper {
+      width: 920px;
+      margin: 0 auto;
+    }
+
+    .hero-text {
+      max-width: 50%;
+      float: left;
+    }
+    .hero-text h1 {
+      font-size: 2em;
+      margin-bottom: 20px;
+    }
+    .hero-text p {
+      margin-bottom: 20px;
+    }
+    .hero-text button {
+      padding: 12px 20px;
+      background: black;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    .hero-image img {
+      max-width: 300px;
+      border-radius: 10px;
+      float: right;
+    }
+    .problems {
+      padding: 60px 40px;
+      background: #eaeaea;
+      text-align: center;
+    }
+    .problems h2 {
+      margin-bottom: 40px;
+    }
+    .problem-cards {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      width: 250px;
+    }
+    .card h3 {
+      margin-bottom: 10px;
+    }
+    .footer-text {
+      padding: 60px 40px;
+      text-align: center;
+      background: white;
+    }
+
+    #footer-text-wrapper {
+      width: 920px;
+      margin: 0 auto;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div id="header-wrapper">    
+      <div style="float:left; width: 200px;"><strong>Strong Office</strong></div>
+      <div style="float:right">
+        <a href="#" style="margin-right: 20px;">Methode</a>
+        <a href="#" style="margin-right: 20px;">Vorteile</a>
+        <button>Termin vereinbaren</button>
+      </div>
+      <div style="clear: both;"></div>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div id="hero-wrapper">
+      <div class="hero-text">
+        <p>RECRUITING SPEZIALISIERT</p>
+        <h1>Architekten für jede Leistungsphase innerhalb kürzester Zeit einstellen.</h1>
+        <p>Unsere Methode erhöht die Zahl guter Bewerbungen von qualifizierten Architekten aus Ihrer Region — ohne auf Bewerbungen zu hoffen oder abhängig von Jobportalen oder Personaldienstleistern zu sein.</p>
+        <button>Jetzt Termin vereinbaren</button>
+      </div>
+      <div class="hero-image">
+        <img src="/mnt/data/Caprice-Tools-Website.webp" alt="Portrait einer Architektin">
+      </div>
+    </div>
+    <div style="clear: both;"></div>
+  </section>
+
+  <section class="problems">
+    <h2>Kennen Sie diese Probleme in Ihrem Architekturbüro?</h2>
+    <div class="problem-cards">
+      <div class="card">
+        <h3>Überlastung der Mitarbeiter</h3>
+        <p>Durch zu geringe Kapazität im Team werden die Aufgaben oft an wenige Schultern verteilt, was zu Fehlern und schlechterer Qualität führt.</p>
+      </div>
+      <div class="card">
+        <h3>Bremse im Wachstum</h3>
+        <p>Die Nachfrage ist da, aber Sie können keine neuen Projekte annehmen, weil Architekten fehlen. Wachstum bleibt aus.</p>
+      </div>
+      <div class="card">
+        <h3>Hoher Konkurrenzdruck</h3>
+        <p>Mitbewerber sind schneller, besser aufgestellt und gewinnen die lukrativeren Projekte. Sie geraten ins Hintertreffen.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="footer-text">
+    <div id="footer-text-wrapper">
+      <h2>Die besten Architekten sind vergeben, wir holen sie trotzdem.</h2>
+      <p>Mit unserer Methode erreichen Sie neben den aktiv suchenden Kandidaten auch die besten Fachkräfte, die aktuell nicht suchen und nur latent wechselbereit sind. </p>
+      <p>Ohne Stellenanzeige und ohne Personaldienstleister: Wir richten Ihre Sichtbarkeit gezielt an den relevanten Entscheidungspunkten der Fachrichtung aus. So werden Sie für diese Zielgruppe sichtbar und erhalten Bewerbungen, die ohne unser System nicht entstanden wären.</p>
+    </div>
+  </section>
+</body>
 </html>
