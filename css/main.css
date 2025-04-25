@@ -115,6 +115,10 @@ a {
   text-decoration: none;
 }
 
+.demo {
+  margin-bottom: 64px;
+}
+
 #contact {
     text-align: center;
     margin: 0;
